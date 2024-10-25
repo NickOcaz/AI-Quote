@@ -11,8 +11,8 @@ with Code academy.
 - List of potential fortunes
 
 ### Technologies to use
-Gitpod for creating source code
-Chrome development tools dor debugging
-CoPilot A.I. for assiting in creating images
-CoPilot A.I. for assiting in creating fortunes
+- Gitpod for creating source code
+- Chrome development tools for debugging
+- CoPilot A.I. for assiting in creating images
+- CoPilot A.I. for assiting in creating fortunes
 
