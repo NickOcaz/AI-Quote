@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kablammo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
 * {
     padding: 0;
-     margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 
 body {
     font-family: Arial, sans-serif;
+    font-size: ;
     display: flex;
     flex-direction: column;
+    align-content: flex-center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     min-height: 100vh;
-  
-    
-   
 }
+
 
 
 main {
@@ -22,26 +26,43 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
 
+
+
+/* sort this flex */
+.wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+
+    justify-content: space-around;
 
 }
+
+
+.box {
+    height: 45vh;
+}
+
+
+/*   -------    */
 
 #quote-container {
-    align:center;
     background: white;
     padding: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    box-shadow: 0 0 20px 10px black;
     text-align: center;
     border-radius: 8px;
-}
+    opacity: 0.7;
 
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-}
 
-footer {
 
-    
-}
+    button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1.5em;
+        border-radius: 15px;
+        background-color: slategray;
+        color: white;
+    }
