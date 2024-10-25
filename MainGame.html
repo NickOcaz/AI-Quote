@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Cookie Teller</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/script.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="bgimg">
+
+<!--Add audio--> 
+    <audio autoplay loop>
+        <source src="assets/sounds/mystical-music.mp3" type="audio/mpeg">
+        <source src="assets/sounds/mystical-music.ogg" type="audio/ogg">
+        Your device does not support audio dor this product.
+    </audio>
+
+
+
+    <div class="wrapper">
+        <main>
+        </main>
+
+        <!--Top buffer-->
+        <div class="container1"></div>
+
+
+        <!--Fortune to be told-->
+        <div class="quote-container">
+            <p id="quote">Are you ready for your fortune to be told? </p>
+            <button id="new-quote" value="sound" onclick="playMusic()" />Tell me my fortune</button>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>

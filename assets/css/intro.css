@@ -1,0 +1,32 @@
+body {
+    background-image: url("../images/coverImg.png");
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: rgb(46, 46, 46);
+    justify-items: center;
+    
+
+
+}
+
+.container {
+ display:flex;
+
+
+}
+
+.enter {
+ 
+    font-size: 3rem;   
+ color: blue;
+ 
+}
+
+a:hover {
+    color:white;
+    box-shadow:  0px 0px 50px 1px #800011;
+    box-shadow:  inner 0px 0px 50px 1px #800011;
+    text-shadow: 0 0 20px #ffffff;
+    box-shadow:  0px 0px 55px 10px #ffffff;
+  }
