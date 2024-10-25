@@ -17,6 +17,7 @@ with Code Institute.
 - interaction button to have fortune told
 - Create fortune teller character
 - List of potential fortunes
+- Source audio
 
 ### Technologies to use
 - Gitpod for creating source code
@@ -24,7 +25,9 @@ with Code Institute.
 - CoPilot A.I. for assiting in creating images
 - CoPilot A.I. for assiting in creating fortunes
 
-### Issues
+### Issue
 - PNG background image not displaying attempted file convertion to jpg as a test but still not able to correct this.
 <br>Solution - [Base64 Encoder](https://www.base64encoder.io/image-to-base64-converter/) used to covert image.
 
+### Issue
+- Audio not working on Apple devices to be resolved at a later date (it's late!)

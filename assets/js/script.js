@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('new-quote').addEventListener('click', getQuote);
    
     const localQuotes = [
+
             "A beautiful, smart, and loving person will be coming into your life.",
             "A faithful friend is a strong defense.",
             "A fresh start will put you on your way.",
@@ -107,3 +108,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('quote').innerText = randomQuote;
     }
 });
+
+function playMusic(){
+    var music = new Audio('assets/sounds/click.mp3');
+    music.play();
+    }
